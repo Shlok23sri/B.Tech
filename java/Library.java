@@ -6,9 +6,16 @@ class Book{
     int isbn_no;
 }
 
+class LibraryCard{
+    String cardHolderName;
+    int cardNumber;
+    Date issueDate;
+    Date expiryDate;
+}
+
 
 public class Library{
     public static void main(String args[]){
-        System.out.println("FGHJ");
+        System.out.println("Library Management System");
     }
 }
